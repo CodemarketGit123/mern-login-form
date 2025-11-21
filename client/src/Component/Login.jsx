@@ -28,7 +28,7 @@ export default function Login() {
     }
 
     try{
-       const response = await fetch ("http://localhost:2000/login" , {
+       const response = await fetch ("https://mern-login-form-api.vercel.app/login" , {
         method: "POST", 
         headers: {
           "Content-Type": "application/json"
